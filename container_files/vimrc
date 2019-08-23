@@ -1,0 +1,19 @@
+nmap <F1> <nop>
+imap <F1> <nop>
+set nocompatible
+filetype off
+set background=dark
+set nohlsearch
+set history=50
+set ruler
+set showcmd
+set noincsearch
+set ts=3
+set sw=3
+set et
+set ai
+set matchpairs=(:),{:},[:],<:>
+set fileformat=unix
+set fileformats=unix
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+syntax on

@@ -1,0 +1,10 @@
+if [ -f /etc/bashrc ]; then
+   . /etc/bashrc
+fi
+
+   # User specific aliases and functions
+export PS1="[\u@\h:\w]# "
+export PATH=$PATH:.
+ulimit -c unlimited
+alias grep="grep -n --color"
+alias vi=vim
